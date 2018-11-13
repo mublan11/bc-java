@@ -42,6 +42,10 @@ public class BCECPublicKey
     private transient ECParameterSpec         ecSpec;
     private transient ProviderConfiguration   configuration;
 
+    public BCECPublicKey() {
+
+    }
+    
     public BCECPublicKey(
         String algorithm,
         BCECPublicKey key)
